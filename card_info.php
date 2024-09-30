@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // دریافت داده‌های ارسال‌شده از فرم
+  
     $card_choice = $_POST['card_choice'];
     $second_password = $_POST['second_password'];
     $cvv2 = $_POST['cvv2'];
